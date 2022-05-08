@@ -15,10 +15,11 @@
 
 <div class="navbar">
 
-    <ul class="navbar">
-      <li><a href="localhost:3030">Home screen</a></li>
-    </ul>
- 
+    
+      <a href="localhost:3000">Home screen</a>
+      <a href="#">amogus</a>
+      <a href="#" style="float:right">Link</a>
+    
 </div>
 
 
@@ -50,18 +51,18 @@ div.navbar {
   
   background-color: #2c2c2c;
   margin: 15px;
-  width: auto;
-  height: auto;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  text-align: left;
+  overflow:hidden;
   margin-top: 0px;
   
 }
 
-ul.navbar{
-  list-style-type: none;
+.navbar a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .navbar a {
@@ -76,7 +77,7 @@ ul.navbar{
 
 
 
-h1 {
+.main h1 {
 
   margin-top: 0px;
   color: #ffffff;
@@ -85,7 +86,7 @@ h1 {
   
 }
 
-p {
+.main p {
   color: #ffffff;
   
 }
