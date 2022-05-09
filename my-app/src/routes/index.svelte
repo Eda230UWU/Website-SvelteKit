@@ -16,9 +16,11 @@
 <div class="navbar">
 
     
-      <a href="localhost:3000">Home screen</a>
+      <!-- svelte-ignore a11y-invalid-attribute -->
+      <a href="#">Sex 2 leaks</a>
+      <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#">amogus</a>
-      <a href="#" style="float:right">Link</a>
+      <a href="localhost:3000" style="float:right">Home</a>
     
 </div>
 
