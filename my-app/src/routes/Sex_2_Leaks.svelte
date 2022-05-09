@@ -6,7 +6,6 @@
 
 <div class="main">
 
-    <p> </p>
   <h1>Sex 2 Leaks</h1>
   <div>error 404: sex not found <br> Try any of the following:</div>
   <ul>
@@ -22,7 +21,7 @@
 
     
       <!-- svelte-ignore a11y-invalid-attribute -->
-      <a href="/Sex_2_Leaks">Sex 2 leaks</a>
+      <a id="current" href="/Sex_2_Leaks">Sex 2 leaks</a>
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#">amogus</a>
       <a href="/" style="float:right">Home</a>
@@ -104,6 +103,9 @@ div.navbar {
   text-align: left;
 }
 
+a#current {
+    color: #ffffff;
+}
 
 
 

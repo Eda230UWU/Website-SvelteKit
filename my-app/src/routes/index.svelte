@@ -20,7 +20,7 @@
       <a href="/Sex_2_Leaks">Sex 2 leaks</a>
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#">amogus</a>
-      <a href="/" style="float:right">Home</a>
+      <a id="current" href="/" style="float:right">Home</a>
     
 </div>
 
@@ -91,6 +91,10 @@ div.navbar {
 .main p {
   color: #ffffff;
   
+}
+
+a#current {
+    color: #ffffff;
 }
 
 </style>
