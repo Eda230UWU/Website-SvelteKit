@@ -6,9 +6,14 @@
 
 <div class="main">
 
-
-  <h1>Eda230UWU main page</h1>
-  <p>nuck figgers</p>
+    <p> </p>
+  <h1>Sex 2 Leaks</h1>
+  <div>error 404: sex not found <br> Try any of the following:</div>
+  <ul>
+    <li>Get some bitches</li>
+    <li>Go touch grass</li>
+    <li>Get a life</li>
+  </ul>
 
 
 </div>
@@ -36,23 +41,45 @@
 
 }
 
+.main h1{
+    padding-top: 25px;
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    
+    color: #ffffff;
+    font-size: 25px;
+}
 
+.main div {
+  color: #ffffff;
+  margin: auto;
+  width: 170px;
+}
 
 div.main{
   background-color: #2c2c2c;
-  border: 100px;
   border-color: #4e4e4e;
-  margin: 15px;
-  padding: 15px;
-  text-align: center;
-  width: auto;
+  text-align: left;
+  margin: 25px;
+ 
   height: auto;
 }
-
+.main ul{
+    width: 170px;
+    margin: auto;
+    padding: 20px;
+}
+.main li {
+    color: #ffffff;
+    text-align: left;
+    
+    
+}
 div.navbar {
   
   background-color: #2c2c2c;
-  margin: 15px;
+  margin: 25px;
   overflow:hidden;
   margin-top: 0px;
   
@@ -79,18 +106,6 @@ div.navbar {
 
 
 
-.main h1 {
 
-  margin-top: 0px;
-  color: #ffffff;
-  font-size: 25px;
-  
-  
-}
-
-.main p {
-  color: #ffffff;
-  
-}
 
 </style>
