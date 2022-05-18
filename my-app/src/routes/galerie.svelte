@@ -7,36 +7,29 @@
 </svelte:head>
 
 <div class="main">
-  <h1>Eda230UWU main page</h1>
-  <i>nuck figgers</i>
+  <h1>Galerie s Kočkoholkama</h1>
+  <i>Azuki je život, Coconut je láska</i>
 </div>
 
 <div class="navbar">
   <a href="/Sex_2_Leaks">Sex 2 leaks</a>
-  
-  <a href="/galerie">Galerie</a>
-  <a id="current" href="/" style="float:right">Home</a>
+
+  <a  id="current" href="/galerie">Galerie</a>
+  <a href="/" style="float:right">Home</a>
 </div>
 
+<div class="Side1">
+  <h1>MOTD: Trnka je homoklád</h1>
+  <p>Trnkuv test byl sracka</p>
+  <p id="SideEnd">sidebar diniger</p>
+</div>
 
-<div class="row">
+<div class="Main1">
+  <h1>KOCKOHOLKA KOCKOHOLKA</h1>
+  <p>Fakt moc miluju kočkoholky</p>
 
-  <div class="Side1">
-    <h1>MOTD: Trnka je homoklád</h1>
-    <p>Trnkuv test byl sracka</p>
-    <p id="end">sidebar diniger</p>
-  </div>
-
-  <div class="Main1">
-    <h1>KOCKOHOLKA KOCKOHOLKA</h1>
-    <p>Fakt moc miluju kočkoholky</p>
-
-  
-    <img src="maple.jpg" alt="icon5.png" />
-    <i>Maple my beloved</i>
-    <p id="end">Maple a Coconut</p>
-  </div>
-
+  <!-- svelte-ignore a11y-missing-attribute -->
+  <img src="maple.jpg" />
 </div>
 
 <!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -76,7 +69,6 @@
     
   }
 
-
   div.main {
     background-color: #2c2c2c;
     border: 100px;
@@ -106,19 +98,12 @@
     text-align: left;
   }
 
-  div.row {
-    height: auto;
-  }
-
   div.Main1 {
     overflow: hidden;
     width: calc(85% - 30px);
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 15px;
     background-color: #2c2c2c;
-    height: 100%;
-    
   }
 
   .Main1 img {
@@ -129,33 +114,22 @@
     margin-left: 12px;
     margin-top: 0px;
     padding-left: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    
   }
 
   .Main1 h1 {
     margin: 0px;
   }
 
-  .Main1 i {
-    margin-bottom: 24px;
-    padding-bottom: 12px;
-  }
-
   div.Side1 {
     overflow: hidden;
     width: calc(15% - 15px);
     background-color: #2c2c2c;
-    height: 100%;
     float: right;
     margin-right: 15px;
-    font-size: 8px;
-    
   }
   .Side1 h1 {
     margin-bottom: 0px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .main h1 {
@@ -165,14 +139,18 @@
     font-size: 32px;
   }
 
-
+  .main p {
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
 
   a#current {
     color: #ffffff;
     text-shadow: 0px 0px 2px #b6b6b6;
   }
 
-  p#end {
+  p#SideEnd {
     margin-bottom: 12px;
   }
 </style>
