@@ -4,6 +4,7 @@
     type="image/png"
     href="icon{Math.floor(Math.random() * 6 + 1)}.png"
   />
+  <title>Err404</title>
 </svelte:head>
 
 <div class="main">
@@ -118,4 +119,8 @@
     color: #ffffff;
     text-shadow: 0px 0px 2px #b6b6b6;
   }
+
+  
+
+
 </style>

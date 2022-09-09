@@ -4,6 +4,7 @@
     type="image/png"
     href="icon{Math.floor(Math.random() * 6 + 1)}.png"
   />
+  <title>UWU Galerie</title> 
 </svelte:head>
 
 <div class="main">
@@ -21,16 +22,49 @@
 <div class="Side1">
   <h1>MOTD: Trnka je homoklád</h1>
   <p>Trnkuv test byl sracka</p>
-  <p id="SideEnd">sidebar diniger</p>
+  <p id="end">sidebar diniger</p>
 </div>
 
 <div class="Main1">
-  <h1>KOCKOHOLKA KOCKOHOLKA</h1>
-  <p>Fakt moc miluju kočkoholky</p>
 
-  <!-- svelte-ignore a11y-missing-attribute -->
-  <img src="maple.jpg" />
+  <h1>Kresleni rolehraní</h1>
+  <div class="MainBox1"> 
+      <h2>Chisato meow but a Catgirl</h2>
+      <img id="chis1" src="/Chisato Catgilr.png" alt="Chisato Catgril.png">
+      <i>Dokončeno kolem 2.9.2020</i>
+  </div>
+
+  <div class="MainBox1"> 
+    <h2>Eyes roleplay</h2>
+    <div class="imgs">
+      
+      <img src="/Eye1.png" alt="Eye roleplay.png">
+      <i>Eye </i>
+      <img src="/Eye2.png" alt="Eye roleplay.png">
+    
+    </div>  
+  </div>
+
+  
 </div>
+
+
+<div class="bottom">
+
+  <div class="bottom1">
+    <a href="https://github.com/Eda230UWU">GitHub<br></a>
+    <a href="https://steamcommunity.com/id/Azuki_Best_Girl/">Steam Account</a>
+    
+
+  </div>
+
+
+</div>
+
+
+
+
+
 
 <!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <style>
@@ -47,6 +81,16 @@
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 14px;
+  }
+
+  h2 {
+    color: #ffffff;
+    font-family: Calibri;
+    padding-top: 13px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    font-size: medium;
   }
 
   p {
@@ -96,6 +140,7 @@
     font-size: 18px;
     color: #b6b6b6;
     text-align: left;
+    height: 32px;
   }
 
   div.Main1 {
@@ -103,33 +148,34 @@
     width: calc(85% - 30px);
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 15px;
     background-color: #2c2c2c;
-  }
-
-  .Main1 img {
-    display: block;
-    padding: 12px;
-    width: 240px;
-    height: 180px;
-    margin-left: 12px;
-    margin-top: 0px;
-    padding-left: 0px;
+    height: 100%;
+    min-height: calc(100vh - 260px);
   }
 
   .Main1 h1 {
     margin: 0px;
   }
 
+  .Main1 i {
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+  }
+
   div.Side1 {
     overflow: hidden;
     width: calc(15% - 15px);
     background-color: #2c2c2c;
+    height: 100%;
     float: right;
     margin-right: 15px;
+    font-size: 8px;
+    min-height: calc(100vh - 260px);
   }
   .Side1 h1 {
     margin-bottom: 0px;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .main h1 {
@@ -139,18 +185,66 @@
     font-size: 32px;
   }
 
-  .main p {
-    color: #ffffff;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+  div.MainBox1 {
+    margin-left: 10px;
+    float: left;
+    border: 2px solid #6b6b6b;    
+    margin-right: 20px;
+    padding-right: 60%;
+    margin-bottom: 12px;
+    padding: 12px;
+    max-width: 100%;
   }
-
+  img#chis1 {
+    height: fit-content;
+    max-width: 100%;
+    padding: 0px 12px 0px 12px;
+    margin: 0px;
+   
+  }
+  .MainBox1 img {
+    height: fit-content;
+    max-width: 100%;
+    padding: 0px 12px 0px 12px;
+    margin: 0px;
+    
+  }
+  .MainBox1 i{
+    margin: 0px 0px 10px 12px;
+    padding-bottom: 12px;
+    padding: 0px;
+  }
+  
   a#current {
     color: #ffffff;
-    text-shadow: 0px 0px 2px #b6b6b6;
+    text-shadow: 0px 0px 2px #6b6b6b;
   }
 
-  p#SideEnd {
+  p#end {
     margin-bottom: 12px;
+    
   }
+  div.bottom {
+    
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+    
+    font-size: 10px;
+  }
+
+  div.bottom1 {
+    padding-top: 15px;
+    margin-left: 25%;
+  }
+
+
+  div.bottom1 a {
+    color: #b6b6b6;
+    text-decoration: none;
+
+    
+  }
+
+
 </style>

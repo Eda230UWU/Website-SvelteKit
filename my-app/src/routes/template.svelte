@@ -4,12 +4,11 @@
     type="image/png"
     href="icon{Math.floor(Math.random() * 6 + 1)}.png"
   />
-  <title>UWU home</title>
+  <title>UWU Template</title>
 </svelte:head>
 
 <div class="main">
-  <h1>Eda230UWU main page</h1>
-  <i>nuck figgers</i>
+  <p>Template</p>
 </div>
 
 <div class="navbar">
@@ -23,20 +22,12 @@
 <div class="row">
 
   <div class="Side1">
-    <h1>MOTD: Trnka je homoklád</h1>
-    <p>Trnkuv test byl sracka</p>
-
-    
+        
     <p id="end">sidebar diniger</p>
   </div>
 
   <div class="Main1">
-    <h1>KOCKOHOLKA KOCKOHOLKA</h1>
-    <p>Fakt moc miluju kočkoholky</p>
-
-  
-    <img src="maple.jpg" alt="Maple.jpg" />
-    <i>Maple my beloved</i>
+    
     <p id="end">Maple a Coconut</p>
   </div>
 
@@ -127,6 +118,7 @@
   }
 
   div.row {
+    
     height: auto;
   }
 
@@ -173,6 +165,10 @@
     font-size: 8px;
     min-height: calc(100vh - 260px);
   }
+  .Side1 h1 {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
 
   .main h1 {
     margin-top: 0px;
@@ -209,8 +205,6 @@
   div.bottom1 a {
     color: #b6b6b6;
     text-decoration: none;
-
-    
   } 
 
 
