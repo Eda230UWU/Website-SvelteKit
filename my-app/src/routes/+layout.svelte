@@ -1,18 +1,4 @@
-
-<div class="main">
-    <h1>Eda230UWU main page</h1>
-    <i>nuck figgers</i>
-  </div>
-  
-  <div class="navbar">
-    <a href="/Sex_2_Leaks">Sex 2 leaks</a>
-    
-    <a href="/galerie">Galerie</a>
-    <a id="current" href="/" style="float:right">Home</a>
-  </div>
-
-
-  <style>
+ <style>
 
 * {
     box-sizing: border-box;
