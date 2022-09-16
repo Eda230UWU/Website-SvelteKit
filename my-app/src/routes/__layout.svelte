@@ -1,53 +1,20 @@
-<svelte:head>
-  <link
-    rel="icon"
-    type="image/png"
-    href="icon{Math.floor(Math.random() * 6 + 1)}.png"
-  />
-  <title>UWU home</title>
-</svelte:head>
 
-<div class="row">
-
-  <div class="Side1">
-    <h1>MOTD: Trnka je homoklád</h1>
-    <p>Trnkuv test byl sracka</p>
-
-    
-    <p id="end">sidebar diniger</p>
+<div class="main">
+    <h1>Eda230UWU main page</h1>
+    <i>nuck figgers</i>
   </div>
-
-  <div class="Main1">
-    <h1>KOCKOHOLKA KOCKOHOLKA</h1>
-    <p>Fakt moc miluju kočkoholky</p>
-
   
-    <img src="maple.jpg" alt="Maple.jpg" />
-    <i>Maple my beloved</i>
-    <p id="end">Maple a Coconut</p>
-  </div>
-
-</div>
-
-<div class="bottom">
-
-  <div class="bottom1">
-    <a href="https://github.com/Eda230UWU">GitHub<br></a>
-    <a href="https://steamcommunity.com/id/Azuki_Best_Girl/">Steam Account</a>
+  <div class="navbar">
+    <a href="/Sex_2_Leaks">Sex 2 leaks</a>
     
-
+    <a href="/galerie">Galerie</a>
+    <a id="current" href="/" style="float:right">Home</a>
   </div>
 
 
-</div>
+  <style>
 
-
-
-<!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-
-<style>
-  * {
+* {
     box-sizing: border-box;
 
     font-family: Arial;
@@ -203,3 +170,4 @@
 
 </style>
 
+<slot />

@@ -7,27 +7,11 @@
   <title>UWU Galerie</title> 
 </svelte:head>
 
-<div class="main">
-  <h1>Galerie s Kočkoholkama</h1>
-  <i>Azuki je život, Coconut je láska</i>
-</div>
 
-<div class="navbar">
-  <a href="/Sex_2_Leaks">Sex 2 leaks</a>
-
-  <a  id="current" href="/galerie">Galerie</a>
-  <a href="/" style="float:right">Home</a>
-</div>
-
-<div class="Side1">
-  <h1>MOTD: Trnka je homoklád</h1>
-  <p>Trnkuv test byl sracka</p>
-  <p id="end">sidebar diniger</p>
-</div>
 
 <div class="Main1">
 
-  <h1>Kresleni rolehraní</h1>
+  <h1>Kreslení rolehraní</h1>
   <div class="MainBox1"> 
       <h2>Chisato meow but a Catgirl</h2>
       <img id="chis1" src="/Chisato Catgilr.png" alt="Chisato Catgril.png">
@@ -145,7 +129,7 @@
 
   div.Main1 {
     overflow: hidden;
-    width: calc(85% - 30px);
+    width: calc(100% - 30px);
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -156,26 +140,13 @@
 
   .Main1 h1 {
     margin: 0px;
+    font-size: 72px;
+    margin-left: 12px;
   }
 
   .Main1 i {
     margin-bottom: 24px;
     padding-bottom: 12px;
-  }
-
-  div.Side1 {
-    overflow: hidden;
-    width: calc(15% - 15px);
-    background-color: #2c2c2c;
-    height: 100%;
-    float: right;
-    margin-right: 15px;
-    font-size: 8px;
-    min-height: calc(100vh - 260px);
-  }
-  .Side1 h1 {
-    margin-bottom: 0px;
-    font-size: 12px;
   }
 
   .main h1 {
