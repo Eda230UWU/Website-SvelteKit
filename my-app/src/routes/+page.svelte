@@ -81,8 +81,7 @@
     font-family: Calibri;
     padding-top: 14px;
     padding-left: 12px;
-    padding-right: 12px;
-    
+    padding-right: 12px;    
   }
 
   i {
@@ -91,8 +90,7 @@
     font-family: Calibri;
     padding-top: 14px;
     padding-left: 12px;
-    padding-right: 12px;
-    
+    padding-right: 12px;    
   }
 
 
@@ -150,8 +148,7 @@
     margin-top: 0px;
     padding-left: 0px;
     margin-bottom: 0px;
-    padding-bottom: 0px;
-    
+    padding-bottom: 0px;    
   }
 
   .Main1 h1 {
@@ -181,8 +178,6 @@
     font-size: 32px;
   }
 
-
-
   a#current {
     color: #ffffff;
     text-shadow: 0px 0px 2px #b6b6b6;
@@ -208,9 +203,7 @@
 
   div.bottom1 a {
     color: #b6b6b6;
-    text-decoration: none;
-
-    
+    text-decoration: none;  
   } 
 
 

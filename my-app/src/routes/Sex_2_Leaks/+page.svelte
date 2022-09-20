@@ -117,7 +117,7 @@
 
   a#current {
     color: #ffffff;
-    text-shadow: 0px 0px 2px #b6b6b6;
+    text-shadow: 0px 0px 5px #6b6b6b;
   }
 
   
