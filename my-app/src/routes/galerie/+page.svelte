@@ -7,14 +7,18 @@
   <title>UWU Galerie</title>
 </svelte:head>
 
+<script>
+    import Page_end from '../nested/page_end/page_end.svelte';
+
+</script>
+
+
 <div class="main">
   <h1>Eda230UWU main page</h1>
-  <i>nuck figgers</i>
+  <i>Moje práce co se kreslení týče</i>
 </div>
 
 <div class="navbar">
-  <a href="/Sex_2_Leaks">Sex 2 leaks</a>
-
   <a id="current" href="/galerie">Galerie</a>
   <a href="/" style="float:right">Home</a>
 </div>
@@ -23,7 +27,7 @@
   <h1>Kreslení rolehraní</h1>
   <div class="MainBox1">
     <h2>Chisato meow but a Catgirl</h2>
-    <img id="chis1" src="/Chisato Catgilr.png" alt="Chisato Catgril.png" />
+    <img id="chis1" src="/Chisato Catgilr.png" alt="Chisato Catgril.png" /> <br>
     <i>Dokončeno 2.9.2022</i>
   </div>
 
@@ -41,58 +45,10 @@
   </div>
 </div>
 
-<div class="bottom">
-  <div class="bottom1">
-    <a href="https://github.com/Eda230UWU">GitHub<br /></a>
-    <a href="https://steamcommunity.com/id/Azuki_Best_Girl/">Steam Account</a>
-  </div>
-</div>
+<Page_end/>
 
 <!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <style>
-  * {
-    box-sizing: border-box;
-
-    font-family: Arial;
-  }
-
-  h1 {
-    color: #ffffff;
-    font-family: Calibri;
-    padding-top: 14px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 14px;
-  }
-
-  h2 {
-    color: #ffffff;
-    font-family: Calibri;
-    padding-top: 13px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 5px;
-    font-size: medium;
-  }
-
-  p {
-    margin: 0px;
-    color: #ffffff;
-    font-family: Calibri;
-    padding-top: 14px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  i {
-    margin: 0px;
-    color: #ffffff;
-    font-family: Calibri;
-    padding-top: 14px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
   div.main {
     background-color: #2c2c2c;
     border: 100px;
@@ -174,9 +130,11 @@
 
   img#chis1 {
     height: fit-content;
-    max-width: 100%;
+    
+    max-height: 90vh;
     padding: 0px 12px 0px 12px;
     margin: 0px;
+    
   }
 
   img#eyes {
@@ -206,21 +164,7 @@
   p#end {
     margin-bottom: 12px;
   }
-  div.bottom {
-    width: 100%;
-    height: 100px;
-    background-color: #2b2b2b;
+ 
+  
 
-    font-size: 10px;
-  }
-
-  div.bottom1 {
-    padding-top: 15px;
-    margin-left: 25%;
-  }
-
-  div.bottom1 a {
-    color: #b6b6b6;
-    text-decoration: none;
-  }
 </style>

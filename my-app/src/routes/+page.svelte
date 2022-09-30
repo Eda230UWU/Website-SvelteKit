@@ -7,93 +7,60 @@
   <title>UWU home</title>
 </svelte:head>
 
-
+<script>
+  import Page_end from './nested/page_end/page_end.svelte';
+  import Sidebar from './nested/sidebar/sidebar.svelte'
+</script>
 <div class="main">
   <h1>Eda230UWU main page</h1>
-  <i>nuck figgers</i>
+  <i>O mě</i>
 </div>
 
-<div class="navbar">
-  <a href="/Sex_2_Leaks">Sex 2 leaks</a>
-  
+<div class="navbar">    
   <a href="/galerie">Galerie</a>
   <a id="current" href="/" style="float:right">Home</a>
 </div>
 
 <div class="row">
 
-  <div class="Side1">
-    <h1>MOTD: Trnka je homoklád</h1>
-    <p>Trnkuv test byl sracka</p>
-
-    
-    <p id="end">sidebar diniger</p>
-  </div>
+  
 
   <div class="Main1">
-    <h1>KOCKOHOLKA KOCKOHOLKA</h1>
-    <p>Fakt moc miluju kočkoholky</p>
-
-  
-    <img src="maple.jpg" alt="Maple.jpg" />
-    <i>Maple my beloved</i>
-    <p id="end">Maple a Coconut</p>
-  </div>
-
-</div>
-
-<div class="bottom">
-
-  <div class="bottom1">
-    <a href="https://github.com/Eda230UWU">GitHub<br></a>
-    <a href="https://steamcommunity.com/id/Azuki_Best_Girl/">Steam Account</a>
+    <h1>Trochu o mě</h1>
+    <p>
+      Ahoj! Jmenuju se Daniel Bulant, alias The Tutorials a jsem mladý programátor. Umím programovat weby, tedy PHP,
+      HTML a podobně, a taky aplikace, a to v sketchware a v android studiu. Též umím i lehce Python, kde jsem
+      vytvořil prvního českého hudebního bota.
+      <br>
+      V čem pracuji?
+      <br>
+      Svoje weby hostuju u endora.cz. Používám ji již několik let a jsem s ní spokojený, jelikož mi na většinu webů
+      stačí free, jen na některé větší projekty mám plus. Kódy webů píšu v editor atom.io, který je nejenom
+      open-source, ale taky jeden z nejhezčích které znám. A funguje lépe než np++, i když by měli trošku zapracovat
+      na optimizaci.
+      <br>
+      Aplikace většinou vytvořím ve sketchware, odkud pak exportuji do android studia, kde aplikace více upravím.
+      Zkuste mojí tvorbu, například word finder jednoduchou hru, kde máte za úkol spojit písmena do anglických slov.
+      <br>
+      Jak mě můžete podpořit?
+      <br>
+      Podpořit mě můžete buďto ohodnocením mích aplikací či videí nebo na patreonu</p>
+      
+      
+    </div>
     
-
-  </div>
-
-
+    <Sidebar/>
+    
 </div>
 
+<Page_end/>
 
 
 <!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 
 <style>
-  * {
-    box-sizing: border-box;
-
-    font-family: Arial;
-  }
-
-  h1 {
-    color: #ffffff;
-    font-family: Calibri;
-    padding-top: 14px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 14px;
-  }
-
-  p {
-    margin: 0px;
-    color: #ffffff;
-    font-family: Calibri;
-    padding-top: 14px;
-    padding-left: 12px;
-    padding-right: 12px;    
-  }
-
-  i {
-    margin: 0px;
-    color: #ffffff;
-    font-family: Calibri;
-    padding-top: 14px;
-    padding-left: 12px;
-    padding-right: 12px;    
-  }
-
-
+ 
   div.main {
     background-color: #2c2c2c;
     border: 100px;
@@ -126,6 +93,7 @@
 
   div.row {
     height: auto;
+    display: flex;
   }
 
   div.Main1 {
@@ -160,16 +128,6 @@
     padding-bottom: 12px;
   }
 
-  div.Side1 {
-    overflow: hidden;
-    width: calc(15% - 15px);
-    background-color: #2c2c2c;
-    height: 100%;
-    float: right;
-    margin-right: 15px;
-    font-size: 8px;
-    min-height: calc(100vh - 260px);
-  }
 
   .main h1 {
     margin-top: 0px;
@@ -187,25 +145,7 @@
     margin-bottom: 12px;
   }
 
-  div.bottom {
-    width: 100%;
-    height: 100px;
-    background-color: #2b2b2b;
-    margin-top: 15px;
-    font-size: 10px;
-  }
-
-  div.bottom1 {
-    padding-top: 15px;
-    margin-left: 25%;
-  }
-
-
-  div.bottom1 a {
-    color: #b6b6b6;
-    text-decoration: none;  
-  } 
-
+   
 
 </style>
 
