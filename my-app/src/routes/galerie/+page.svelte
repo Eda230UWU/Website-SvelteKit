@@ -25,24 +25,40 @@
 
 <div class="Main1">
   <h1>Kreslení rolehraní</h1>
+
+  <div class="MainBox1">
+    <h2>Maple Chibi (moje první kresba)</h2>
+    <img id="MapChib" src="/galerie/MapleChibi.png" alt="MapleChibi.png"><br/>
+    <i>Dokončeno na konci května 2021, tohle jsem kreslil s tabletem spolužáka</i>
+  </div>
+
   <div class="MainBox1">
     <h2>Chisato meow but a Catgirl</h2>
-    <img id="chis1" src="/Chisato Catgilr.png" alt="Chisato Catgril.png" /> <br>
-    <i>Dokončeno 2.9.2022</i>
+    <img id="chis1" src="/galerie/Chisato Catgilr.png" alt="Chisato Catgril.png"/><br>
+    <i>Dokončeno 2.9.2022 (první kresba s novým tabletem)</i>
   </div>
 
   <div class="MainBox1">
     <h2>Oči rolehraní</h2>
-    <i>Head, Eyes</i> <br />
+    <i>Head, Eyes</i> <br/>
     <div class="MainBox2">
-      <img id="eyes" src="/Eye1.png" alt="Eye roleplay.png" /> <br />
+      <img id="eyes" src="/galerie/Eye1.png" alt="Eye1.png" /> <br/>
       <i>Dokončeno 5.9.2022</i>
     </div>
     <div class="MainBox2">
-      <img id="eyes" src="/Eye2.png" alt="Eye roleplay.png" /> <br />
+      <img id="eyes" src="/galerie/Eye2.png" alt="Eye1.png" /> <br />
       <i>Dokončeno 6.9.2022</i>
     </div>
+  
+    
   </div>
+  
+  <div class="MainBox1">
+      <h2>KryvasCZ kočkoholka</h2>
+      <img id="KryCZ_catgirl" src="/galerie/KryvasCZ.png" alt="Eye1.png"/><br/>
+      <i>Dokončeno 29.9.2022</i>
+    </div>
+  
 </div>
 
 <Page_end/>
@@ -144,6 +160,10 @@
     margin: 0px;
   }
 
+  img#KryCZ_catgirl {
+    max-height: 90vh;
+  }
+
   .MainBox1 img {
     height: fit-content;
     width: 100%;
@@ -161,10 +181,5 @@
     color: #ffffff;
     text-shadow: 0px 0px 5px #6b6b6b;
   }
-  p#end {
-    margin-bottom: 12px;
-  }
- 
-  
 
 </style>

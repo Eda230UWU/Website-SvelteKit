@@ -3,7 +3,7 @@
     <div class="bottom1">
       <a href="https://github.com/Eda230UWU">GitHub<br></a>
       <a href="https://steamcommunity.com/id/Azuki_Best_Girl/">Steam Account<br></a>
-      <a href="https://ssps.cz">SSPŠ - <i>Škola kterou studuji</i></a> 
+      <a href="https://ssps.cz">SSPŠ - Škola kterou studuji</a> 
   
     </div>
   
