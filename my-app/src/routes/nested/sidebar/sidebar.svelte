@@ -1,7 +1,7 @@
 <div class="Side1">
     <h1>MOTD: Nemam rád grafický systémy</h1>
     
-    <p>Azuki rikka fingerspin je WIP</p>
+    
 </div>
 
 <style>

@@ -57,7 +57,29 @@
       <h2>KryvasCZ kočkoholka</h2>
       <img id="KryCZ_catgirl" src="/galerie/KryvasCZ.png" alt="Eye1.png"/><br/>
       <i>Dokončeno 29.9.2022</i>
-    </div>
+  </div>
+
+  <div class="MainBox1">
+    <h2>Azuki</h2>
+    <img id="Azuki1" src="/galerie/Azuki1.png" alt="Azuki.png"><br>
+    <i>7.10.2022</i>
+
+
+  </div>
+
+  <div class="MainBox1">
+    <h2>Hayasaca</h2>
+    <img id="Hayasaca1" src="/galerie/hayasaca.png" alt="Hayasaca.png"><br>
+    <i>25.10.2022</i>
+
+  </div>
+
+  <div class="MainBox1">
+    <h2>Misaka Mikoto</h2>
+    <img id="Misaka1" src="/galerie/misaka_face.png" alt="Misaka.png"><br>
+    <i>3.11.2022</i>
+
+  </div>
   
 </div>
 
@@ -74,6 +96,9 @@
     text-align: center;
     width: auto;
     height: auto;
+  }
+  img {
+    max-height: 90vh;
   }
 
   div.navbar {
