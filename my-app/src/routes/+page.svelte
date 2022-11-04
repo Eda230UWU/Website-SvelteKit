@@ -18,25 +18,10 @@
 
 
 
-<div class="main">
-  <h1>Welcome to my homepage!</h1>
-  <i>Feel free to browse a bit</i>
-</div>
 
 
-<div class="row">
 
-  
 
-  <div class="Main1">
-    <h1>Náhodné CSS styly</h1>
-    <Dropdown/> <br>
-    <Dropdown/>
-  </div>    
-  <Sidebar/>
-</div>
-
-<Page_end/>
 
 
 <!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->

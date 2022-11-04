@@ -6,15 +6,19 @@
     </div>
     <div class="right">
         <a id="r">Menu</a>
-        <div class="menu">
-            <a>Home</a><br>
-            <a>Home</a><br>
-            <a>Home</a><br>
-            <a>Home</a><br>
 
+        <div class="menu">
+            <br>
+            <a>Home</a><br>
+            <a>Home</a><br>
+            <a>Home</a><br>
+            <a>Home</a><br>
+        
         </div>
     </div>
 </div>
+
+
 
 <style>
     div.navbar {
@@ -24,7 +28,6 @@
         flex-direction: row;
         background-color: #2c2c2c;
         margin: 0px;
-        overflow: visible;
         height: 64px;
         max-height: 64px;
     }
@@ -58,17 +61,16 @@
        
     }
     div.right {
-        height: 34px;
+        position: relative;
         display: flex;
         justify-content: end;
-        flex-direction: column;
+        flex-direction: row;
         flex-grow: 2;
-        align-content: flex-end;
+        align-content: center;
         transform-origin: bottom left;
         overflow: hidden;
     }
     div.right a {
-        position: fixed;
         justify-self: center;
         align-self: flex-end;
         max-width: fit-content;
@@ -78,24 +80,29 @@
     }
 
     div.menu {
+        display: flex;
+        width: 20vh;
+        position: absolute;
         overflow: hidden;
-        position: relative;
         height: 0px;
         max-height: 0px;
-        transition: all 0.5s;
-        display: flex;
+        transition: all 5s;
         flex-direction: column;
-        flex-wrap: nowrap;
+        justify-items: flex-end;
+    }
+    div.menu a{
+        position: relative;
     }
 
     a:hover ~ .menu {
+        overflow: visible;
         max-height: 40vh;
         height: 40vh;
         background-color: #2c2c2c;
 
     }
     div.menu:hover {
-        flex-wrap: wrap;
+        overflow: visible;
         max-height: 40vh;
         height: 40vh;
         background-color: #2c2c2c;
