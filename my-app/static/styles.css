@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
   }
 
+div{
+  display: flex;
+}
+
 h1 {
     color: #ffffff;
     padding-top: 14px;

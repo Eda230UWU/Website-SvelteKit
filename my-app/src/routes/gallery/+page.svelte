@@ -53,12 +53,7 @@
     
   </div>
   
-  <div class="MainBox1">
-      <h2>KryvasCZ kočkoholka</h2>
-      <img id="KryCZ_catgirl" src="/galerie/KryvasCZ.png" alt="Eye1.png"/><br/>
-      <i>Dokončeno 29.9.2022</i>
-  </div>
-
+  
   <div class="MainBox1">
     <h2>Azuki</h2>
     <img id="Azuki1" src="/galerie/Azuki1.png" alt="Azuki.png"><br>
