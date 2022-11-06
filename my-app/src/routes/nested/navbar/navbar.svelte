@@ -1,19 +1,23 @@
 <div class="navbar">
     <div class="left" />
     <div class="center">
-        <a href="/gallery">Gallery</a>
-        <a href="/">Home</a>
+        <a href="/gall/gallery_tiles">Gallery</a>
+        <a href="/">Homepage</a>
     </div>
     <div class="right">
         <a id="r">Menu</a>
 
         <div class="menu">
-            <br>
-            <a>Home</a><br>
-            <a>Home</a><br>
-            <a>Home</a><br>
-            <a>Home</a><br>
-        
+                <div class="black">
+                    <br style="margin: 1px;">
+                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <a style="margin-top: 2px;">Menu</a><br>
+
+                    <a href="/">Homepage</a><br>
+                    <a href="/gall/gallery">Gallery Timeline</a><br>
+                    <a href="/gall/gallery_tiles">Gallery Tiles</a><br>
+                    <a href="/testing">Testing</a><br>
+            </div>
         </div>
     </div>
 </div>
@@ -60,53 +64,69 @@
         justify-content: center;
        
     }
+    
     div.right {
+        align-self: flex-start;
+        height: 100%;
         position: relative;
         display: flex;
         justify-content: end;
+        align-content: flex-end;
         flex-direction: row;
         flex-grow: 2;
         align-content: center;
         transform-origin: bottom left;
-        overflow: hidden;
+        overflow: visible;
     }
     div.right a {
         justify-self: center;
-        align-self: flex-end;
         max-width: fit-content;
+        align-self: center;
         padding: 0px;
         padding-right: 25px;
-     
+        position: absolute;
     }
 
     div.menu {
-        display: flex;
-        width: 20vh;
-        position: absolute;
+        align-self: flex-start;
+        background-image: linear-gradient(to bottom, #00878b, #00878b);
         overflow: hidden;
+        display: flex;
+        width: 180px;
+        position: absolute;
         height: 0px;
         max-height: 0px;
-        transition: all 5s;
+        transition: all 1s;
         flex-direction: column;
         justify-items: flex-end;
+        align-items: flex-end;
+    }
+    div.black {
+        display: flex;
+        background-color: #242424;
+        
+        width: 178px;
+        justify-items: flex-end;
+        align-items: end;
     }
     div.menu a{
+        padding: 0px 25px 0px 25px;
         position: relative;
+        align-self: flex-end;
     }
 
     a:hover ~ .menu {
-        overflow: visible;
-        max-height: 40vh;
-        height: 40vh;
+        max-height: 225px;
+        height: 225px;
         background-color: #2c2c2c;
 
     }
     div.menu:hover {
-        overflow: visible;
-        max-height: 40vh;
-        height: 40vh;
+        max-height: 225px;
+        height: 225px;
         background-color: #2c2c2c;
     }
+
 
     
 

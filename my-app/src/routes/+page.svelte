@@ -8,94 +8,111 @@
 </svelte:head>
 
 <script>
-  import Navbar from './nested/navbar/navbar.svelte';
-  import Page_end from './nested/page_end/page_end.svelte';
-  import Sidebar from './nested/sidebar/sidebar.svelte'
-  import Dropdown from './nested/dropdown_menu/dropdown_menu.svelte'
+  import Navbar from '/src/routes/nested/navbar/navbar.svelte';
+  import Page_end from '/src/routes/nested/page_end/page_end.svelte';
+  import Sidebar from '/src/routes/nested/sidebar/sidebar.svelte';
+  import Dropdown from '/src/routes/nested/dropdown_menu/dropdown_menu.svelte';
+  import Wind from './nested/wind/wind.svelte';
 </script>
 
-<Navbar></Navbar>
+<div class="backg">
+
+  <Navbar></Navbar>
+
+  <div class="intro">
+    <h1>Welcome to my Homepage!</h1>
+    <i>This is just a little website i've made in my free time, so feel free to hang out</i>
+  </div>
+
+  <div class="main">
+    <div class="mb1">
+      <div>
+        <h1>About me</h1>
+        <p>Hello, my name is Eduard. I'm in my second year of high school and I'm studying cybersecurity. My hobbies include digital art, programming, videogames and anime. <br> If you'd like to see my "art" you can go to the gallery tab.</p>
+      </div>  
+      <div>
+        <Wind></Wind>
+      </div>
+      
+    </div>  
+
+    
+
+  </div>
 
 
 
 
 
 
-
+  <Page_end></Page_end>
+</div>
 
 
 <!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 
 <style>
+
+  div.intro {
+    display: flex;
+    flex-direction: column;
+    background-color: #2c2c2c;
+    margin: 25px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .intro h1 {
+    margin: 20px;
+  }
+
+  .intro i {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .backg {
+    width: 100%;
+    background-color: #003c8a;
+  }
  
   div.main {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
     background-color: #2c2c2c;
-    border: 100px;
-    border-color: #4e4e4e;
-    margin: 15px;
+    margin: 25px;
+    align-items: center;
     padding: 15px;
-    text-align: center;
     width: auto;
     height: auto;
+    padding-left: 30px;
   }
-
-  
-
-  div.row {
-    height: auto;
-    display: flex;
-  }
-
-  div.Main1 {
-    overflow: hidden;
-    width: calc(85% - 30px);
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    background-color: #2c2c2c;
-    height: 100%;
-    min-height: calc(100vh - 260px);
-  }
-
-  .Main1 img {
-    display: block;
-    padding: 12px;
-    width: 240px;
-    height: 180px;
-    margin-left: 12px;
-    margin-top: 0px;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;    
-  }
-
-  .Main1 h1 {
-    margin: 0px;
-  }
-
-  .Main1 i {
-    margin-bottom: 24px;
-    padding-bottom: 12px;
-  }
-
-
   .main h1 {
+    padding: 0px;
+    align-self: flex-start;
+    margin-top: 24px;
+    font-size: 25px;
+  }
+  .main p {
     margin-top: 0px;
+    padding: 0px;
+    align-self: flex-start;
+  } 
+  div.mb1 {
+    flex-direction: row;
+    align-self: flex-start;
+    margin: 0px;
     margin-left: 25px;
-    margin-bottom: 0px;
-    color: #ffffff;
-    font-size: 32px;
+    padding: 0px;
+    max-width: 60vh;
   }
 
-  a#current {
-    color: #ffffff;
-    text-shadow: 0px 0px 2px #b6b6b6;
-  }
 
-  p#end {
-    margin-bottom: 12px;
-  }
+
+
+
 
    
 

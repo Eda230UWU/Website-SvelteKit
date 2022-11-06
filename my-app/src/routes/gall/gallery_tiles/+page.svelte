@@ -9,7 +9,7 @@
 
 <script>
     import Page_end from "/src/routes/nested/page_end/page_end.svelte";
-    import Navbar from "../nested/navbar/navbar.svelte";
+    import Navbar from "../../nested/navbar/navbar.svelte";
   </script>
 
 <div class="backg">
