@@ -92,7 +92,7 @@
         background-image: linear-gradient(to bottom, #00878b, #00878b);
         overflow: hidden;
         display: flex;
-        width: 180px;
+        width: 182px;
         position: absolute;
         height: 0px;
         max-height: 0px;
@@ -104,8 +104,8 @@
     div.black {
         display: flex;
         background-color: #242424;
-        
-        width: 178px;
+        height: inherit ;
+        width: 180px;
         justify-items: flex-end;
         align-items: end;
     }

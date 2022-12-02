@@ -2,7 +2,7 @@
   <link
     rel="icon"
     type="image/png"
-    href="icon{Math.floor(Math.random() * 6 + 1)}.png"
+    href="../../icon{Math.floor(Math.random() * 6 + 1)}.png"
   />
   <title>Homepage</title>
 </svelte:head>
@@ -14,6 +14,91 @@
 
 <div class="backg">
     <Navbar></Navbar>
+    <div class="intro">
+      <h1>Gallery in a grid</h1>
+      <i>This is just a gallery. Nothing really special about this one.</i>
+
+    </div>
+
+
+    <div class="main" style="margin-top:0px" >
+      
+      <div class="box_bg">
+        <div class="box">
+          <h2>name</h2>
+          <div class="img_box">
+
+            <img href="" class="img" alt="alt">
+          </div>
+
+        </div>
+        
+      </div>  
+
+      <!-- epic -->
+      
+      <div class="box_bg">
+        <div class="box">
+          <h2>name</h2>
+          <div class="img_box">
+
+            <img href="" class="img" alt="alt">
+          </div>
+
+        </div>
+        
+      </div>  
+
+      <!-- epic -->
+
+      <div class="box_bg">
+        <div class="box">
+          <h2>name</h2>
+          <div class="img_box">
+
+            <img href="" class="img" alt="alt">
+          </div>
+
+        </div>
+        
+      </div>  
+
+      <!-- epic -->
+
+      <div class="box_bg">
+        <div class="box">
+          <h2>name</h2>
+          <div class="img_box">
+
+            <img href="" class="img" alt="alt">
+          </div>
+
+        </div>
+        
+      </div>  
+
+      <!-- epic -->
+
+      <div class="box_bg">
+        <div class="box">
+          <h2>name</h2>
+          <div class="img_box">
+
+            <img href="" class="img" alt="alt">
+          </div>
+
+        </div>
+        
+      </div>  
+
+      <!-- epic -->
+    
+    
+    </div>
+
+    
+
+
     <Page_end></Page_end>
 </div>
 
@@ -22,6 +107,24 @@
 
 
 <style>
+
+
+
+  div.box_bg {
+    
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #242424, #242424) padding-box,
+      linear-gradient(to bottom, #00aeff, #00aeff00) border-box;
+    width: 100%;
+    border: 2px solid transparent;
+
+  }
+  div.box {
+    margin: 2px;
+
+  }  
+
+
 
   div.intro {
     display: flex;
@@ -47,7 +150,10 @@
   }
  
   div.main {
-    display: flex;
+    
+    grid-template-columns: repeat(5, [coll1-start] 0%, [coll1-end] 1%, [coll2-start] 1%, [coll2-end] 19);
+    grid-template-rows: repeat(5, auto);
+    display: grid;
     align-content: flex-start;
     justify-content: flex-start;
     background-color: #2c2c2c;
@@ -58,25 +164,7 @@
     height: auto;
     padding-left: 30px;
   }
-  .main h1 {
-    padding: 0px;
-    align-self: flex-start;
-    margin-top: 24px;
-    font-size: 25px;
-  }
-  .main p {
-    margin-top: 0px;
-    padding: 0px;
-    align-self: flex-start;
-  } 
-  div.mb1 {
-    flex-direction: row;
-    align-self: flex-start;
-    margin: 0px;
-    margin-left: 25px;
-    padding: 0px;
-    max-width: 60vh;
-  }
+
 
 
 

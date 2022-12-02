@@ -23,7 +23,6 @@ div.bottom {
     width: 100%;
     height: 100px;
     background-color: #2b2b2b;
-    margin-top: 15px;
     font-size: 10px;
   }
 

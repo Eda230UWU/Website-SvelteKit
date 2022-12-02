@@ -9,7 +9,9 @@ body{
   background-image: linear-gradient(to right, #280085,#003c8a 10%, #003c8a 90%,#280085 100%);
 
 }
-
+* {
+  box-sizing: border-box;
+}
 div{
   display: flex;
   flex-direction: column;
@@ -48,6 +50,6 @@ h1 {
     padding-top: 14px;
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 18px;
+    font-size: 18px ;
     
   }
