@@ -1,6 +1,8 @@
 <script>
   import Navbar from "/src/routes/nested/navbar/navbar.svelte";
   import Page_end from "/src/routes/nested/page_end/page_end.svelte";
+  import Github from "./nested/github_link/github_link.svelte"
+  import Vec from "./nested/vtipna_zluta_vec/viptna_zluta_vec.svelte"
   import Sidebar from "/src/routes/nested/sidebar/sidebar.svelte";
   import Dropdown from "/src/routes/nested/dropdown_menu/dropdown_menu.svelte";
   import Wind from "./nested/wind/wind.svelte";
@@ -15,71 +17,129 @@
   <title>Homepage</title>
 </svelte:head>
 
-<div class="backg">
-  <Navbar />
+<Navbar />
 
-  <div class="intro">
-    <h1>Welcome to my Homepage!</h1>
-    <i
-      >This is just a little website I've made in my free time. Feel free to
-      hang out.</i
-    >
-  </div>
+<div class="horizontal_line"></div>
 
-  <div class="main">
-    <div class="mb1">
-      <div class="brd1">
-        <h1>About me</h1>
-        <p>
-          Hello, my name is Eduard. I'm in my second year of high school and I'm
-          studying cybersecurity. My hobbies include digital art, programming,
-          videogames and anime. <br /> If you'd like to see my "art" you can go to
-          the gallery tab.
-        </p>
+<div class="main">
+  
+    <div class="sidebar">
+      <h2>Projects</h2>
+      
+      <div class="side_box_1">
+        <h3>AI-chan</h3>
+        <i>design and art</i>
+        <p>status: in progress</p>
       </div>
-      <div class="mb2">
-        <Wind></Wind>
-      </div>
-    </div>
-  </div>
 
-  <Page_end />
+      <div class="side_box_1">
+        <h3>Web for AI-chan</h3>
+        <i>frontend</i>
+        <p>status: on hold</p>
+      </div>
+
+    </div> 
+  <div class="vertical_line"></div>
+    <div class="quick">
+      <h2>Quick access</h2>
+        <div style="flex-direction: row;">
+          <div style="width: 10px;"/>
+          <Vec/>
+          <div style="width: 10px;"/>
+          <Github/>
+          <div style="width: 10px;"/>
+          <Wind/>
+        </div>
+        <div style="margin-top: 50px" class="horizontal_line"></div>
+
+      </div>
+    
+  
+  <div class="vertical_line"></div>
+  <div class="menu">
+
+  </div>
 </div>
+   
+
+<Page_end />
 
 <!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <style>
-  div.intro {
+  .horizontal_line {
+    width: 98%;
+    height: 2px;
+    background-color: #2c2c2c;
+    margin: 0% 1% 0% 1%;
+    
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  div.quick {
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
-    background-color: #2c2c2c;
-    margin: 25px;
-    align-items: center;
+    background-color: #000000;
     padding-bottom: 20px;
+    width: auto;
   }
 
-  .intro h1 {
-    margin: 20px;
+  div.vertical_line{
+    background-color: #2c2c2c;
+    width: 1px;
+    min-height: 65vh;
+    height: 98%;
+    margin: 1% 20px 1% 20px;
   }
 
-  .intro i {
+  div.sidebar{
+    width: 20vw;
+    align-self: flex-start;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  div.sidebar h3 {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 34px;
+    margin-top: 6px;
+  }
+  div.sidebar p{
+    font-size: 20px;
+    margin-top: 12px;
+  }
+  div.sidebar i {
+    font-size: 18px;
+    padding: 0px;  
+    padding-bottom: 5px;
+  }
+  
+  div.side_box_1{
+    background-color: #1f1f1f;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+  }
+  
+  .quick h1 {
+  }
+
+  .quick i {
+    padding: 0px;
     margin-top: 0px;
-    margin-bottom: 20px;
-  }
-
-  .backg {
-    min-height: 100vh;
-    width: 100%;
-    background-color: #003c8a;
   }
 
   div.main {
-    padding: 50px 25px 25px 50px;
+    padding: 25px 50px 50px 20px;
     display: flex;
+    flex-direction: row;
     align-content: flex-start;
     justify-content: flex-start;
-    background-color: #2c2c2c;
-    margin: 25px;
-    margin-top: 0px;
+    background-color: #000000;
     align-items: center;
     width: auto;
     height: auto;
@@ -95,29 +155,5 @@
     padding: 0px;
     align-self: flex-start;
   }
-  div.mb1 {
-    width: 100%;
-    flex-direction: row;
-    align-self: flex-start;
-    margin: 0px;
-    padding: 0px;
-    
-  }
-
-  div.brd1 {
-    min-width: 40vh;
-    max-width: 50vh;
-    background: linear-gradient(to bottom, #242424, #242424) padding-box,
-      linear-gradient(to bottom, #00aeff, #00aeff00) border-box;
-    border-radius: 25px;
-    border: 2px solid transparent;
-    padding: 30px;
-    padding-top: 10px;
-  }
-
-  div.mb2 {
-    margin-left: 50px;
-    justify-self: flex-start;
-    align-self: flex-start;
-  }
+  
 </style>

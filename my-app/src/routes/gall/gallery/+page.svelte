@@ -140,7 +140,8 @@
 <!--- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <style>
   div.main {
-    background-color: #2c2c2c;
+    
+    background-color: #1d1d1d;
     border: 100px;
     border-color: #4e4e4e;
     margin: 50px 25px 25px 25px;
@@ -153,7 +154,7 @@
     max-height: 90vh;
   }
 
-  .backg {
+  /*.backg {
     width: 100%;
     background-image: linear-gradient(
       to right,
@@ -163,16 +164,12 @@
       #280085 100%
     );
   }
-
-  .backg {
-    width: 100%;
-    background-color: #003c8a;
-  }
-
+  */
+  
   div.Main1 {
     margin-right: 25px;
     margin: 0px 25px 50px 25px;
-    background-color: #2c2c2c;
+    background-color: #1d1d1d;
   }
 
   div.mb2 {
@@ -186,7 +183,7 @@
   div.MainBox2 {
     padding: 0px;
     margin: 0px;
-    background-color: #2c2c2c;
+    background-color: #1d1d1d;
     height: 100%;
     display: inline-block;
     width: max-content;

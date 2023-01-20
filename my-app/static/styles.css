@@ -6,8 +6,7 @@
   }
 
 body{
-  background-image: linear-gradient(to right, #280085,#003c8a 10%, #003c8a 90%,#280085 100%);
-
+  background-color: #000000;
 }
 * {
   box-sizing: border-box;
@@ -52,4 +51,9 @@ h1 {
     padding-right: 12px;
     font-size: 18px ;
     
+  }
+
+  .backg {
+    width: 100%;
+    background-color: #08007a;
   }

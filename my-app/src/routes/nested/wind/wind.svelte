@@ -1,6 +1,3 @@
-
-
-
 <div href="/gall/gallery_tiles" class="pic" >
 
     <div class="box"> 
@@ -12,7 +9,7 @@
     a {
         text-decoration: none;
         text-decoration: underline;
-        margin: 29px 0px 0px 25px;
+        margin: 24px 0px 0px 25px;
         font-size: 25px; 
         color: black;
         cursor: pointer;
@@ -22,11 +19,12 @@
         justify-self: flex-end;
         width: 0px;
         height: 5px;
-        background-color: #ffffff;
+        background-color: #3700ffcc;
         animation-duration: 20s;
         animation-name: load;
         animation-iteration-count: infinite;
         animation-delay: 3s;
+        animation-timing-function: linear;
         
     }
     @keyframes load {

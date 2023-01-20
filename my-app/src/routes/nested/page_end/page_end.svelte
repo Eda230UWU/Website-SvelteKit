@@ -22,7 +22,7 @@
 div.bottom {
     width: 100%;
     height: 100px;
-    background-color: #2b2b2b;
+    background-color: #0e0e0e;
     font-size: 10px;
   }
 

@@ -113,7 +113,7 @@
   div.box_bg {
     
     border-radius: 25px;
-    background: linear-gradient(to bottom, #242424, #242424) padding-box,
+    background: linear-gradient(to bottom, #1d1d1d, #1d1d1d) padding-box,
       linear-gradient(to bottom, #00aeff, #00aeff00) border-box;
     width: 100%;
     border: 2px solid transparent;
@@ -129,7 +129,7 @@
   div.intro {
     display: flex;
     flex-direction: column;
-    background-color: #2c2c2c;
+    background-color: #1d1d1d;
     margin: 25px;
     align-items: center;
     padding-bottom: 20px;
@@ -156,7 +156,7 @@
     display: grid;
     align-content: flex-start;
     justify-content: flex-start;
-    background-color: #2c2c2c;
+    background-color: #1d1d1d;
     margin: 25px;
     align-items: center;
     padding: 15px;

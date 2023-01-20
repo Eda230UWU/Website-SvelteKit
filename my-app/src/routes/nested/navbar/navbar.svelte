@@ -12,7 +12,7 @@
                     <br style="margin: 1px;">
                     <!-- svelte-ignore a11y-missing-attribute -->
                     <a style="margin-top: 2px;">Menu</a><br>
-
+                    
                     <a href="/">Homepage</a><br>
                     <a href="/gall/gallery">Gallery Timeline</a><br>
                     <a href="/gall/gallery_tiles">Gallery Tiles</a><br>
@@ -30,7 +30,7 @@
         display: flex;
         align-items: center;
         flex-direction: row;
-        background-color: #2c2c2c;
+        background-color: #000000;
         margin: 0px;
         height: 64px;
         max-height: 64px;
@@ -103,7 +103,7 @@
     }
     div.black {
         display: flex;
-        background-color: #242424;
+        background-color: #1d1d1d;
         height: inherit ;
         width: 180px;
         justify-items: flex-end;
@@ -118,13 +118,13 @@
     a:hover ~ .menu {
         max-height: 225px;
         height: 225px;
-        background-color: #2c2c2c;
+        background-color: #1d1d1d;
 
     }
     div.menu:hover {
         max-height: 225px;
         height: 225px;
-        background-color: #2c2c2c;
+        background-color: #1d1d1d;
     }
 
 
