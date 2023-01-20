@@ -45,9 +45,9 @@
         <div style="flex-direction: row;">
           <div style="width: 10px;"/>
           <Vec/>
-          <div style="width: 10px;"/>
+          <div style="width: 50px;"/>
           <Github/>
-          <div style="width: 10px;"/>
+          <div style="width: 50px;"/>
           <Wind/>
         </div>
         <div style="margin-top: 50px" class="horizontal_line"></div>
@@ -56,6 +56,10 @@
     
   
   <div class="vertical_line"></div>
+      <div class="idk mlsoun gmaer">
+        <h2>lmao jsem linej</h2>
+
+      </div>
   <div class="menu">
 
   </div>
@@ -75,7 +79,8 @@
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 52px;
+    margin-top: 0px;
   }
 
   div.quick {
@@ -121,7 +126,7 @@
   div.side_box_1{
     background-color: #1f1f1f;
     padding: 12px;
-    margin: 12px;
+    margin: 0px 12px 24px 12px;
     border-radius: 12px;
   }
   

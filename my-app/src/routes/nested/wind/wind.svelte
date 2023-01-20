@@ -1,18 +1,22 @@
 <div href="/gall/gallery_tiles" class="pic" >
 
     <div class="box"> 
-        <div class="load"></div> 
-        <a href="/gall/gallery_tiles">Examples of my art</a>
+        
+        <div class="white_bckg"><div class="load"></div> <a href="/gall/gallery_tiles">Examples of my art</a></div> 
     </div>
 </div>
 <style>
     a {
         text-decoration: none;
         text-decoration: underline;
-        margin: 24px 0px 0px 25px;
+        margin: 24px 0px 25px 25px;
         font-size: 25px; 
         color: black;
         cursor: pointer;
+    }
+    
+    .white_bckg {
+        background-color: rgba(94, 65, 202, 0.507);
     }
     div.load {
         align-self: flex-start;

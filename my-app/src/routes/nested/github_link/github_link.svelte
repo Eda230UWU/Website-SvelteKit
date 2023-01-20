@@ -1,18 +1,23 @@
 <div href="/gall/gallery_tiles" class="pic" >
 
     <div class="box"> 
-        <a href="https://github.com/Eda230UWU">My github account</a>
+        <div class="white_bckg"><a href="https://github.com/Eda230UWU">My github account</a></div>
     </div>
 </div>
 <style>
     a {
         text-decoration: none;
         text-decoration: underline;
-        margin: 29px 0px 0px 25px;
+        margin: 29px 0px 25px 25px;
         font-size: 25px; 
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         width: fit-content;
         cursor: pointer;
+    }
+
+    
+    .white_bckg {
+        background-color: #2ca8416e;
     }
     
     div.pic {
