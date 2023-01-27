@@ -1,4 +1,4 @@
-<div href="/gall/gallery_tiles" class="pic" >
+<div href="/gall/gallery_tiles" class="pic" style="margin-right: 50px; margin-bottom: 20px">
     <div class="box"> 
         <div class="white_bckg">
             <a href="https://osu.ppy.sh/users/25740204">My Osu! account</a>

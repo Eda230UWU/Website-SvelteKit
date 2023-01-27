@@ -1,7 +1,7 @@
-<div href="/gall/gallery_tiles" class="pic" >
+<div href="/gall/gallery_tiles" class="pic" style="margin-right: 50px; margin-bottom: 20px">
 
     <div class="box"> 
-        <div class="white_bckg"><a href="https://github.com/Eda230UWU">My github account</a></div>
+        <div class="white_bckg"><a href="https://github.com/Eda230UWU">My Github account</a></div>
     </div>
 </div>
 <style>

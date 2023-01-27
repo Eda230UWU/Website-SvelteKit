@@ -8,98 +8,31 @@
 </svelte:head>
 
 <script>
-    import Page_end from "/src/routes/nested/page_end/page_end.svelte";
+    import Page_end from "../../nested/page_end/page_end.svelte";
     import Navbar from "../../nested/navbar/navbar.svelte";
   </script>
 
 <div class="backg">
-    <Navbar></Navbar>
-    <div class="intro">
-      <h1>Gallery in a grid</h1>
-      <i>This is just a gallery. Nothing really special about this one.</i>
+    <Navbar/>
+    <div style="flex-directions: collumn; padding-left: 20px; background-color: #000000">
+      <div class="main">
+        <div class="intro">
+        <h2 style="margin-bottom: 0px">Gallery</h2>
+        <i style="padding-top: 0px">grid grid grid</i>
+        <p> gaming</p>
+        <div class="horizontal_line"/>
+
+        
+        </div> 
+
+
+        <div class="horizontal_line"/>
+
+      </div>
+      <div id="menu" class="menu"></div>
 
     </div>
-
-
-    <div class="main" style="margin-top:0px" >
-      
-      <div class="box_bg">
-        <div class="box">
-          <h2>name</h2>
-          <div class="img_box">
-
-            <img href="" class="img" alt="alt">
-          </div>
-
-        </div>
-        
-      </div>  
-
-      <!-- epic -->
-      
-      <div class="box_bg">
-        <div class="box">
-          <h2>name</h2>
-          <div class="img_box">
-
-            <img href="" class="img" alt="alt">
-          </div>
-
-        </div>
-        
-      </div>  
-
-      <!-- epic -->
-
-      <div class="box_bg">
-        <div class="box">
-          <h2>name</h2>
-          <div class="img_box">
-
-            <img href="" class="img" alt="alt">
-          </div>
-
-        </div>
-        
-      </div>  
-
-      <!-- epic -->
-
-      <div class="box_bg">
-        <div class="box">
-          <h2>name</h2>
-          <div class="img_box">
-
-            <img href="" class="img" alt="alt">
-          </div>
-
-        </div>
-        
-      </div>  
-
-      <!-- epic -->
-
-      <div class="box_bg">
-        <div class="box">
-          <h2>name</h2>
-          <div class="img_box">
-
-            <img href="" class="img" alt="alt">
-          </div>
-
-        </div>
-        
-      </div>  
-
-      <!-- epic -->
-    
-    
-    </div>
-
-    
-
-
-    <Page_end></Page_end>
+    <Page_end/>
 </div>
 
 
@@ -108,30 +41,17 @@
 
 <style>
 
-
-
-  div.box_bg {
+  .horizontal_line {
+    width: 98%;
+    height: 2px;
+    background-color: #2c2c2c;
+    margin: 0% 1% 0% 1%;
     
-    border-radius: 25px;
-    background: linear-gradient(to bottom, #1d1d1d, #1d1d1d) padding-box,
-      linear-gradient(to bottom, #00aeff, #00aeff00) border-box;
-    width: 100%;
-    border: 2px solid transparent;
-
   }
-  div.box {
-    margin: 2px;
-
-  }  
-
-
 
   div.intro {
     display: flex;
     flex-direction: column;
-    background-color: #1d1d1d;
-    margin: 25px;
-    align-items: center;
     padding-bottom: 20px;
   }
 
@@ -156,8 +76,7 @@
     display: grid;
     align-content: flex-start;
     justify-content: flex-start;
-    background-color: #1d1d1d;
-    margin: 25px;
+    background-color: #000000;
     align-items: center;
     padding: 15px;
     width: auto;

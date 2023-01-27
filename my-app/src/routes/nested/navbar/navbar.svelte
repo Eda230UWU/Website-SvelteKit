@@ -1,3 +1,7 @@
+<script>
+    import {menu_width} from "../menu/menu.svelte"
+</script>
+
 <div class="navbar">
     <div class="left" />
     <div class="center">
@@ -5,12 +9,12 @@
         <a href="/">Homepage</a>
     </div>
     <div class="right">
-        <a id="r">Menu</a>
+        <a id="r" on:click={() => {if($menu_width === 0){$menu_width=400} else{$menu_width=0}}}>Menu</a>
 
-        <div class="menu">
+        <!--<div class="menu">
                 <div class="black">
                     <br style="margin: 1px;">
-                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <!-svelte-ignore a11y-missing-attribute ->
                     <a style="margin-top: 2px;">Menu</a><br>
                     
                     <a href="/">Homepage</a><br>
@@ -18,7 +22,7 @@
                     <a href="/gall/gallery_tiles">Gallery Tiles</a><br>
                     <a href="/testing">Testing</a><br>
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 

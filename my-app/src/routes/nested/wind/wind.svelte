@@ -1,4 +1,4 @@
-<div href="/gall/gallery_tiles" class="pic" >
+<div href="/gall/gallery_tiles" class="pic" style="margin-right: 50px; margin-bottom: 20px">
 
     <div class="box"> 
         
@@ -37,7 +37,7 @@
     }
 
     div.pic {
-        background-image: url('/wind.png');
+        background-image: url('/webpage gaming.png');
         background-size: 500%;
         background-position: 2560px;
         max-width: 512px;
